@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Login</title>
+    <link rel="stylesheet" type="text/css" href="css/login/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/login/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/login/iofrm-style.css">
+    <link rel="stylesheet" type="text/css" href="css/login/iofrm-theme2.css">
+</head>
+<body>
+    <div class="form-body" class="container-fluid">
+        <div class="website-logo">
+            <a href="home.html">
+                <div class="logo">
+                    <img class="logo-size" src="images/logo-light.svg" alt="">
+                </div>
+            </a>
+        </div>
+        <div class="row">
+            <div class="img-holder">
+                <div class="bg">
+                    <img class="logo-size" src="img/bg.jpg" alt="">
+                </div>
+                <div class="info-holder">
+
+                </div>
+            </div>
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                        <h3>KCG Complaints Maintenance</h3>
+                        <p>Get more things done with our platform.</p>
+                        <div class="page-links">
+                            <a href="login.html" >Student</a><a href="staff.html" class="active">Staff</a>
+                        </div>
+                        <form action="loginstaff.php" method="get">
+                            <input class="form-control" type="text" name="username" placeholder="Staff ID" required>
+                            <input class="form-control" type="password" name="password" placeholder="Password" required>
+                            <input type="checkbox" id="chk1"><label for="chk1">Remember me</label>
+                            <div class="form-button">
+                                <button id="submit" type="submit" class="ibtn">Login as Staff</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
